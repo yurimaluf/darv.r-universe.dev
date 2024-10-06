@@ -1,11 +1,14 @@
 Package: darv
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Distribution of Algebra of Random Variables
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Maluf, Y. S.
+Maintainer: <yurimaluf@gmail.com>
+Description: The package offers numerical method to compute distributions yielded by algebra of random variables. Researchers often come across situations that the distribution of interrest involves expressions such as: X+Y, XY, X/Y, X/(X+Y) where X and Y might not be independent. Furthermore, the dependence structure is stem from serial correlation which typically occur in time series.
+Depends: R (>= 4.0.0), R6, evd, bgev, copula 
+Imports: rstudioapi, numDeriv, miscTools 
+License: GPL-3
+NeedsCompilation: no
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.3.2
